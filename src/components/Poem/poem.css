@@ -1,0 +1,28 @@
+.poem-container{
+    display: flex;
+    justify-content: center;
+}
+
+.poem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-cadetGray);
+    min-width: min-content;
+    height: min-content;
+    color: black;
+    font-style:italic;
+    border-radius: 5px;
+}
+
+.poem > p {
+    margin: 0;
+}
+.poem > h3 {
+    font-style: normal;
+}
+
+.poem-signature {
+    font-size: 1.2em;
+    font-family: 'Pacifico', cursive;
+}
