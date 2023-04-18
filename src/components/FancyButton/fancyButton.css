@@ -5,24 +5,45 @@
 
 .counter{
     position: relative;
-    top: -20%;
+    bottom: -100%;
     font-size: 150%;
     font-family: 'Pacifico', cursive;
+    z-index: 1;
 }
 
 .reset-button{
     position: absolute;
     right: 10px;
-    top: 10px;
+    bottom: 10px;
     color: var(--color-teal);
     background-color: transparent;
     border: 2px solid transparent;
-    font-size: 1em;
+    font-size: 0.65em;
+    cursor: pointer;
 }
 
-.reset-button:hover {
-    box-sizing: border-box;
+.fancy-button-inspiration{
+    position: absolute;
+    left: 10px;
+    bottom: 11px;
+    color: var(--color-teal);
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-size: 0.65em;
+    outline: 2px solid transparent;
+    text-decoration: none;
+}
+.reset-button:hover{
     border: 2px solid var(--color-teal);
+}
+
+
+.fancy-button-inspiration:hover{
+    outline: 2px solid var(--color-teal);
+}
+
+.fancy-button-inspiration:visited{
+    color: var(--color-teal);
 }
 
 .fancy-button-container{
