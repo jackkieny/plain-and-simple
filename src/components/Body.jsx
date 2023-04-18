@@ -1,6 +1,7 @@
 import React from 'react'
 import Poem from './Poem/Poem'
 import FancyButton from './FancyButton/FancyButton'
+import DownloadButton from './DownloadButton/DownloadButton'
 import { BsStackOverflow, BsQuora } from 'react-icons/bs'
 import { BiSmile, BiCheckboxSquare} from 'react-icons/bi'
 import { SiDuolingo, SiOpenai } from 'react-icons/si'
@@ -19,19 +20,19 @@ const Body = () => {
             Many websites are indeed used to promote or sell something. 
             But a lot of the time, websites are just used to provide information about something. 
             Websites like
-            <a href='https://stackoverflow.com/' target='_blank' rel="noreferrer"> Stack Overflow <BsStackOverflow style={{color: "#f2740d"}}/> </a>
+            <a href='https://stackoverflow.com/' target='_blank' rel="noreferrer" className='paragraph-link'> Stack Overflow <BsStackOverflow style={{color: "#f2740d"}}/> </a>
             and
-            <a href='https://quora.com/' target='_blank' rel='noreferrer'> Quora <BsQuora style={{color: "#b92b27"}} /> </a>
+            <a href='https://quora.com/' target='_blank' rel='noreferrer' className='paragraph-link'> Quora <BsQuora style={{color: "#b92b27"}} /> </a>
             are used to bring together like-minded individuals.
             Other sites like
-            <a href="http://duolingo.com" target="_blank" rel="noreferrer"> Duolingo <SiDuolingo style={{color: "#58cc02"}} /> </a>
+            <a href="http://duolingo.com" target="_blank" rel="noreferrer" className='paragraph-link'> Duolingo <SiDuolingo style={{color: "#58cc02"}} /> </a>
             are used for education.
         </p>
         
         <p>From 
-            <a href="https://theuselessweb.com/" target="_blank" rel="noreferrer"> The Useless Web <BiCheckboxSquare style={{ color: "#ff1493"}}/> </a> 
+            <a href="https://theuselessweb.com/" target="_blank" rel="noreferrer" className='paragraph-link'> The Useless Web <BiCheckboxSquare style={{ color: "#ff1493"}}/> </a> 
             to 
-            <a href="https://chat.openai.com/chat" target="_blank" rel="noreferrer"> ChatGPT <SiOpenai style={{color: "#10a37f"}} /> </a>
+            <a href="https://chat.openai.com/chat" target="_blank" rel="noreferrer" className='paragraph-link'> ChatGPT <SiOpenai style={{color: "#10a37f"}} /> </a>
             , the internet is an amazing place.</p>
         <p>
             But at the end of the day, whether it's providing information, promoting products or services, 
@@ -52,7 +53,8 @@ const Body = () => {
           <h2>Not every website has to include a bunch of</h2>
           <FancyButton />
           <h2>OR</h2>
-          
+          <h2>Obnixous Download Buttons</h2>
+          <DownloadButton/>
         </div>
     </>
   )

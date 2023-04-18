@@ -25,12 +25,12 @@ h1 {
   text-align: center;
 }
 
-a, a:visited {
+.paragraph-link, .paragraph-link:visited {
   color: white;
   text-decoration: none;
 }
 
-a:hover{
+.paragraph-link:hover{
   outline: 1px solid white;
 
 }
