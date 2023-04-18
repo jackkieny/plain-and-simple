@@ -1,0 +1,14 @@
+.download-button-link,
+.download-button-link:hover,
+.download-button-link:visited {
+    border: none;
+    cursor: not-allowed
+}
+.download-button-image {
+    width: 500px;
+}
+
+.dont-click-text {
+    font-size: 65%;
+    cursor: not-allowed;
+}
