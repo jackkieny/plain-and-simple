@@ -1,0 +1,15 @@
+.icon-scroller-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 100px;
+    width: 50%;
+    font-size: 300%;
+}
+
+.icon {
+    background: transparent;
+}

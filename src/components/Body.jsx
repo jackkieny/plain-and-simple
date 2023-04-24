@@ -2,6 +2,7 @@ import React from 'react'
 import Poem from './Poem/Poem'
 import FancyButton from './FancyButton/FancyButton'
 import DownloadButton from './DownloadButton/DownloadButton'
+import IconScroller from './IconScroller/IconScroller'
 import { BsStackOverflow, BsQuora } from 'react-icons/bs'
 import { BiSmile, BiCheckboxSquare} from 'react-icons/bi'
 import { SiDuolingo, SiOpenai } from 'react-icons/si'
@@ -55,6 +56,9 @@ const Body = () => {
           <h2>OR</h2>
           <h2>Obnixous Download Buttons</h2>
           <DownloadButton/>
+          <h2>OR</h2>
+          <h2>Whatever this thing is...</h2>
+          <IconScroller/>
         </div>
     </>
   )
